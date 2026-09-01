@@ -1,0 +1,11 @@
+Name: lib.db4objects-db4o
+Requires: \
+	ae3.api \
+	ae3.sdk \
+
+Provides: \
+	lib.db4objects-db4o \
+	ae3.pkg.lib.db4o \
+	--source-process:compile-java \
+	source-process:ae3-packages \
+
